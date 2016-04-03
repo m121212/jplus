@@ -83,10 +83,4 @@
 		    </extension>
 		</extensions>
 	</build>
-	<distributionManagement>
-		<repository>
-      		<id>unina-svn</id>
-      		<url>http://143.225.94.200/svn/jplus</url>
-    	</repository>
-  	</distributionManagement>
 </project>
