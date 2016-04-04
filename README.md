@@ -4,6 +4,7 @@ Fork of original jsoup library (https://github.com/jhy/jsoup) with additional re
 For maven/gradle integration:
 
 MAVEN: pom.xml
+```xml
 <repositories>
   <repository>
     <id>jitpack.io</id>
@@ -15,18 +16,23 @@ MAVEN: pom.xml
 	<artifactId>jplus</artifactId>
 	<version>-SNAPSHOT</version>
 </dependency>
+```
 
 GRADLE
 
 root build.gradle
+```xml
 allprojects {
 	  repositories {
 			maven { url "https://jitpack.io" }
 	  }
 }
+```
 
 app build.gradle
+```xml
 dependencies {
   compile 'com.github.m121212:jplus:-SNAPSHOT'
 }
+```
 	
