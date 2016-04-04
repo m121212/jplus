@@ -1,2 +1,2 @@
 # jplus
-Fork of jsoup with additional request with raw body.
+Fork of original jsoup library (https://github.com/jhy/jsoup) with additional request method handling "raw body".
